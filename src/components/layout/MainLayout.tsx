@@ -2,7 +2,7 @@ import { Outlet, Link } from "react-router-dom";
 import {
   NavigationMenu,
   NavigationMenuItem,
-  NavigationMenuLink,
+  // NavigationMenuLink,
   NavigationMenuList,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu"; //
