@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 // import axios from "axios";
 import { useVillageStore } from "@/store/useVillageStore";
@@ -23,27 +23,27 @@ export default function HomePage() {
   // 2. State lokal untuk data berita
   // const [news, setNews] = useState<NewsItem[]>([]);
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const [isNewsLoading, setIsNewsLoading] = useState(false);
+  // const [isNewsLoading, setIsNewsLoading] = useState(false);
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const [newsError, setNewsError] = useState<string | null>(null);
+  // const [newsError, setNewsError] = useState<string | null>(null);
 
   // 3. Fetch data berita (lokal)
-  useEffect(() => {
-    const fetchNews = async () => {
-      setIsNewsLoading(true);
-      setNewsError(null);
-      try {
-        // const response = await axios.get(`${API_BASE_URL}/news?limit=3`); // Ambil 3 berita terbaru
-        // setNews(response.data);
-      } catch (err) {
-        console.error(err);
-        setNewsError("Gagal memuat berita.");
-      } finally {
-        setIsNewsLoading(false);
-      }
-    };
-    fetchNews();
-  }, []);
+  // useEffect(() => {
+  //   const fetchNews = async () => {
+  //     setIsNewsLoading(true);
+  //     setNewsError(null);
+  //     try {
+  //       // const response = await axios.get(`${API_BASE_URL}/news?limit=3`); // Ambil 3 berita terbaru
+  //       // setNews(response.data);
+  //     } catch (err) {
+  //       console.error(err);
+  //       setNewsError("Gagal memuat berita.");
+  //     } finally {
+  //       setIsNewsLoading(false);
+  //     }
+  //   };
+  //   fetchNews();
+  // }, []);
 
   // Tampilkan loading global
   if (isVillageLoading) {

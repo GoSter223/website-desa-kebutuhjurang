@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 // Tipe data untuk item galeri
 type GalleryItem = {
