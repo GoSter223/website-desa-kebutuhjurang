@@ -4,6 +4,14 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
+  --color-desa-primary: #2e7d32;
+  --color-desa-secondary: #81c784;
+  --color-desa-accent: #ffc107;
+  --color-desa-bg: #fafafa;
+  --color-desa-text: #333333;
+
+  --font-sans: "Inter", sans-serif;
+
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
