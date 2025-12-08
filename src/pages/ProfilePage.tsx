@@ -130,7 +130,7 @@ export default function ProfilePage() {
             </div>
 
             {/* Kotak Info Layanan */}
-            <div className="bg-desa-primary text-white p-6 rounded-lg shadow-md">
+            {/* <div className="bg-desa-primary text-white p-6 rounded-lg shadow-md">
               <h3 className="font-bold text-lg mb-4 text-desa-accent">
                 Butuh Layanan?
               </h3>
@@ -144,7 +144,7 @@ export default function ProfilePage() {
               >
                 Hubungi Kami
               </Link>
-            </div>
+            </div> */}
           </aside>
 
           {/* Area Konten */}

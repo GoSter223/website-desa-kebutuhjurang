@@ -1,6 +1,9 @@
+import { useState } from "react";
 import { Outlet, Link, NavLink } from "react-router-dom";
 
 export function MainLayout() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   // Daftar menu agar kodenya lebih rapi dan mudah diatur
   const navItems = [
     { label: "Beranda", path: "/" },
@@ -60,7 +63,10 @@ export function MainLayout() {
           </ul>
 
           {/* Tombol Mobile Menu */}
-          <button className="md:hidden text-white focus:outline-none hover:text-desa-accent transition">
+          <button
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            className="md:hidden text-white focus:outline-none hover:text-desa-accent transition"
+          >
             <svg
               className="w-6 h-6"
               fill="none"
@@ -76,6 +82,38 @@ export function MainLayout() {
             </svg>
           </button>
         </div>
+
+        {/* Menu Mobile */}
+        {isMenuOpen && (
+          <div className="md:hidden bg-desa-primary border-t border-desa-accent">
+            <ul className="flex flex-col space-y-0">
+              {navItems.map((item) => (
+                <li key={item.path}>
+                  <NavLink
+                    to={item.path}
+                    onClick={() => setIsMenuOpen(false)}
+                    className={({ isActive }) =>
+                      isActive
+                        ? "block px-4 py-3 text-white font-bold border-l-4 border-desa-accent bg-opacity-10 bg-desa-accent"
+                        : "block px-4 py-3 text-white hover:text-desa-accent hover:bg-opacity-10 hover:bg-desa-accent border-l-4 border-transparent transition"
+                    }
+                  >
+                    {item.label}
+                  </NavLink>
+                </li>
+              ))}
+              <li className="border-t border-desa-accent">
+                <Link
+                  to="/login"
+                  onClick={() => setIsMenuOpen(false)}
+                  className="block px-4 py-3 text-desa-accent font-bold hover:bg-opacity-10 hover:bg-desa-accent transition"
+                >
+                  Masuk
+                </Link>
+              </li>
+            </ul>
+          </div>
+        )}
       </nav>
 
       {/* Konten Halaman */}
