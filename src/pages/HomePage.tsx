@@ -96,7 +96,7 @@ export default function HomePage() {
       ),
       borderColor: "border-desa-accent",
       iconBg: "bg-yellow-100",
-      iconColor: "text-desa-accent", // Menggunakan text-desa-accent (kuning)
+      iconColor: "text-desa-accent",
     },
     {
       title: "Potensi Desa",
@@ -138,7 +138,7 @@ export default function HomePage() {
         <div className="absolute inset-0 z-0">
           <img
             src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
-            alt="Desa Tamang"
+            alt="Desa Kebutuhjurang"
             className="w-full h-full object-cover"
           />
           {/* Overlay gradient */}
@@ -153,14 +153,13 @@ export default function HomePage() {
 
         <div className="relative z-10 px-4">
           <h2 className="text-4xl md:text-6xl font-bold mb-4 drop-shadow-md">
-            DESA TAMANG
+            DESA KEBUTUHJURANG
           </h2>
           <p className="text-xl md:text-2xl font-light mb-8 text-gray-100">
             Menuju Desa Digital yang Mandiri dan Sejahtera
           </p>
           <a
             href="#jelajahi"
-            // PERBAIKAN 2: Button colors
             className="px-8 py-3 bg-desa-accent text-desa-primary font-bold rounded-full shadow-lg hover:bg-yellow-400 transition transform hover:-translate-y-1 inline-block"
           >
             Jelajahi Desa
@@ -219,17 +218,17 @@ export default function HomePage() {
             </div>
             <div className="w-full md:w-2/3 text-center md:text-left">
               <h2 className="text-3xl font-bold text-desa-primary mb-2">
-                Sambutan Kepala Desa Tamang
+                Sambutan Kepala Desa Kebutuhjurang
               </h2>
               <p className="text-gray-500 mb-6 italic">
                 "Membangun Desa dengan Hati, Melayani dengan Integritas"
               </p>
               <p className="text-gray-600 leading-relaxed mb-6">
-                Selamat datang di website resmi Desa Tamang. Website ini kami
-                hadirkan sebagai media transparansi dan informasi bagi seluruh
-                masyarakat desa. Kami berkomitmen untuk terus berinovasi dalam
-                memberikan pelayanan terbaik. Mari bersama-sama kita wujudkan
-                Desa Tamang yang maju, mandiri, dan berbudaya.
+                Selamat datang di website resmi Desa Kebutuhjurang. Website ini
+                kami hadirkan sebagai media transparansi dan informasi bagi
+                seluruh masyarakat desa. Kami berkomitmen untuk terus berinovasi
+                dalam memberikan pelayanan terbaik. Mari bersama-sama kita
+                wujudkan Desa Kebutuhjurang yang maju, mandiri, dan berbudaya.
               </p>
               <div className="flex flex-col md:flex-row gap-4 justify-center md:justify-start">
                 <div className="text-center">
@@ -418,7 +417,6 @@ export default function HomePage() {
                 </p>
                 <a
                   href="#"
-                  // PERBAIKAN 8: Button primary
                   className="inline-block px-4 py-2 bg-desa-primary text-white text-sm font-bold rounded hover:bg-green-700 transition"
                 >
                   Baca Selengkapnya
