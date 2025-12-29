@@ -9,7 +9,7 @@ export default function TourismPage() {
         <div className="absolute inset-0 z-0">
           <img
             src="https://images.unsplash.com/photo-1596395818956-621e285d18d4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
-            alt="Pemandangan Desa Tamang"
+            alt="Pemandangan Desa Kebutuhjurang"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-black/40"></div>
@@ -20,8 +20,8 @@ export default function TourismPage() {
             Surga Tersembunyi
           </h1>
           <p className="text-xl md:text-2xl font-light mb-8 max-w-2xl mx-auto drop-shadow-md">
-            Jelajahi keindahan alam, budaya, dan kearifan lokal Desa Tamang yang
-            memukau.
+            Jelajahi keindahan alam, budaya, dan kearifan lokal Desa
+            Kebutuhjurang yang memukau.
           </p>
           <a
             href="#daftar-wisata"
@@ -41,7 +41,7 @@ export default function TourismPage() {
           <div className="w-24 h-1 bg-desa-accent mx-auto mt-2 rounded"></div>
           <p className="text-gray-500 mt-4">
             Pilihan objek wisata favorit wisatawan saat berkunjung ke Desa
-            Tamang.
+            Kebutuhjurang.
           </p>
         </div>
 
@@ -64,7 +64,7 @@ export default function TourismPage() {
               </h3>
               <p className="text-gray-600 text-sm mb-4 line-clamp-2">
                 Nikmati pemandangan matahari terbit di atas awan dari puncak
-                tertinggi di Desa Tamang. Tempat camping terbaik.
+                tertinggi di Desa Kebutuhjurang. Tempat camping terbaik.
               </p>
               <div className="flex justify-between items-center border-t border-gray-100 pt-4">
                 <span className="text-desa-primary font-bold">
@@ -137,8 +137,9 @@ export default function TourismPage() {
                 Kampung Tenun
               </h3>
               <p className="text-gray-600 text-sm mb-4 line-clamp-2">
-                Belajar menenun kain tradisional khas Desa Tamang langsung dari
-                pengrajin lokal. Bawa pulang oleh-oleh kain cantik.
+                Belajar menenun kain tradisional khas Desa Kebutuhjurang
+                langsung dari pengrajin lokal. Bawa pulang oleh-oleh kain
+                cantik.
               </p>
               <div className="flex justify-between items-center border-t border-gray-100 pt-4">
                 <span className="text-desa-primary font-bold">
@@ -165,7 +166,8 @@ export default function TourismPage() {
           <div className="mb-6 md:mb-0 text-center md:text-left">
             <h2 className="text-3xl font-bold mb-2">Ingin Menginap?</h2>
             <p className="text-green-100 text-lg">
-              Desa Tamang memiliki Homestay yang nyaman dengan suasana pedesaan.
+              Desa Kebutuhjurang memiliki Homestay yang nyaman dengan suasana
+              pedesaan.
             </p>
           </div>
           <Link

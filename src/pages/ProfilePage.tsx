@@ -155,7 +155,7 @@ export default function ProfilePage() {
               className="bg-white p-8 rounded-lg shadow-sm mb-8 scroll-mt-24"
             >
               <h2 className="text-2xl font-bold text-desa-primary mb-6 border-b border-gray-200 pb-2">
-                Sejarah Desa Tamang
+                Sejarah Desa Kebutuhjurang
               </h2>
               <img
                 src="https://images.unsplash.com/photo-1598194917637-33eb97c83c34?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
@@ -164,20 +164,21 @@ export default function ProfilePage() {
               />
               <div className="text-gray-600 leading-relaxed space-y-4 text-justify">
                 <p>
-                  Desa Tamang merupakan salah satu desa tua di Kecamatan Nanga
-                  Mahap yang telah berdiri sejak tahun 1950. Nama "Tamang"
-                  diambil dari bahasa lokal yang berarti "Pertemuan", merujuk
-                  pada letak desa yang berada di pertemuan dua sungai besar yang
-                  menjadi sumber kehidupan masyarakat pada masa lampau.
+                  Desa Kebutuhjurang merupakan salah satu desa tua di Kecamatan
+                  Nanga Mahap yang telah berdiri sejak tahun 1950. Nama
+                  "Kebutuhjurang" diambil dari bahasa lokal yang berarti
+                  "Pertemuan", merujuk pada letak desa yang berada di pertemuan
+                  dua sungai besar yang menjadi sumber kehidupan masyarakat pada
+                  masa lampau.
                 </p>
                 <p>
-                  Pada awalnya, Desa Tamang hanya berupa perkampungan kecil yang
-                  dihuni oleh beberapa kepala keluarga. Seiring berjalannya
-                  waktu, berkat semangat gotong royong dan kepemimpinan para
-                  tetua adat, desa ini berkembang menjadi pusat pertanian dan
-                  perdagangan lokal. Transformasi menjadi Desa Digital dimulai
-                  pada tahun 2023 sebagai upaya untuk mengadaptasi teknologi
-                  dalam pelayanan publik.
+                  Pada awalnya, Desa Kebutuhjurang hanya berupa perkampungan
+                  kecil yang dihuni oleh beberapa kepala keluarga. Seiring
+                  berjalannya waktu, berkat semangat gotong royong dan
+                  kepemimpinan para tetua adat, desa ini berkembang menjadi
+                  pusat pertanian dan perdagangan lokal. Transformasi menjadi
+                  Desa Digital dimulai pada tahun 2023 sebagai upaya untuk
+                  mengadaptasi teknologi dalam pelayanan publik.
                 </p>
               </div>
             </div>
@@ -196,8 +197,9 @@ export default function ProfilePage() {
                   Visi
                 </h3>
                 <p className="text-gray-700 italic font-medium text-lg">
-                  "Terwujudnya Desa Tamang yang Mandiri, Sejahtera, dan Berbasis
-                  Teknologi Digital dengan Menjunjung Tinggi Nilai Budaya."
+                  "Terwujudnya Desa Kebutuhjurang yang Mandiri, Sejahtera, dan
+                  Berbasis Teknologi Digital dengan Menjunjung Tinggi Nilai
+                  Budaya."
                 </p>
               </div>
 
@@ -230,10 +232,10 @@ export default function ProfilePage() {
                 Letak Geografis
               </h2>
               <p className="text-gray-600 mb-6">
-                Desa Tamang terletak di wilayah dataran tinggi dengan ketinggian
-                kurang lebih 300 mdpl. Kondisi ini membuat Desa Tamang memiliki
-                udara yang sejuk dan tanah yang subur, sangat cocok untuk
-                pertanian padi dan perkebunan karet.
+                Desa Kebutuhjurang terletak di wilayah dataran tinggi dengan
+                ketinggian kurang lebih 300 mdpl. Kondisi ini membuat Desa
+                Kebutuhjurang memiliki udara yang sejuk dan tanah yang subur,
+                sangat cocok untuk pertanian padi dan perkebunan karet.
               </p>
 
               <h3 className="font-bold text-gray-800 mb-3">Batas Wilayah</h3>

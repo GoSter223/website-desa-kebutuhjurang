@@ -19,8 +19,8 @@ export default function PotentialPage() {
             Kekayaan Alam & Ekonomi Kreatif
           </h1>
           <p className="text-lg md:text-xl font-light mb-8 max-w-2xl mx-auto text-green-100">
-            Menggali potensi bumi Desa Tamang, mulai dari hasil tani berkualitas
-            hingga kerajinan tangan bernilai tinggi.
+            Menggali potensi bumi Desa Kebutuhjurang, mulai dari hasil tani
+            berkualitas hingga kerajinan tangan bernilai tinggi.
           </p>
           <div className="flex justify-center gap-4">
             <a
@@ -91,7 +91,7 @@ export default function PotentialPage() {
           <div className="w-full md:w-1/2">
             <img
               src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
-              alt="Kopi Tamang"
+              alt="Kopi Kebutuhjurang"
               className="rounded-lg shadow-xl w-full h-80 object-cover"
             />
           </div>
@@ -102,13 +102,13 @@ export default function PotentialPage() {
               </span>
             </div>
             <h3 className="text-3xl font-bold text-gray-800 mb-4">
-              Kopi Robusta Tamang
+              Kopi Robusta Kebutuhjurang
             </h3>
             <p className="text-gray-600 leading-relaxed mb-6">
               Ditanam di ketinggian 400 mdpl dengan tanah vulkanik yang subur,
-              Kopi Tamang memiliki cita rasa unik dengan hint coklat dan kacang.
-              Telah didistribusikan ke berbagai kedai kopi di kabupaten dan
-              provinsi.
+              Kopi Kebutuhjurang memiliki cita rasa unik dengan hint coklat dan
+              kacang. Telah didistribusikan ke berbagai kedai kopi di kabupaten
+              dan provinsi.
             </p>
             <div className="grid grid-cols-2 gap-4 mb-6">
               <div className="border-l-4 border-desa-accent pl-4">
@@ -304,9 +304,9 @@ export default function PotentialPage() {
             Peluang Investasi & Kerjasama
           </h2>
           <p className="text-lg text-green-100 max-w-2xl mx-auto mb-8">
-            Desa Tamang membuka peluang seluas-luasnya bagi investor atau mitra
-            bisnis yang ingin bekerjasama dalam pengembangan pertanian organik
-            dan pariwisata berkelanjutan.
+            Desa Kebutuhjurang membuka peluang seluas-luasnya bagi investor atau
+            mitra bisnis yang ingin bekerjasama dalam pengembangan pertanian
+            organik dan pariwisata berkelanjutan.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link

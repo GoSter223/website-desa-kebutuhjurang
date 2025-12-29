@@ -26,9 +26,11 @@ export function MainLayout() {
               D
             </div>
             <div>
-              <h1 className="font-bold text-lg leading-tight">DESA TAMANG</h1>
+              <h1 className="font-bold text-lg leading-tight">
+                DESA KEBUTUHJURANG
+              </h1>
               <p className="text-xs text-desa-secondary text-opacity-80 group-hover:text-desa-accent transition duration-300">
-                Kabupaten Sekadau
+                Kabupaten Pagedongan
               </p>
             </div>
           </Link>
@@ -131,12 +133,12 @@ export function MainLayout() {
                 <div className="w-8 h-8 bg-desa-accent rounded-full flex items-center justify-center text-gray-800 font-bold">
                   D
                 </div>
-                <h3 className="text-xl font-bold">Desa Tamang</h3>
+                <h3 className="text-xl font-bold">Desa Kebutuhjurang</h3>
               </div>
               <p className="text-gray-400 text-sm leading-relaxed mb-4">
-                Website resmi Desa Tamang, Kecamatan Nanga Mahap, Kabupaten
-                Sekadau. Media informasi dan pelayanan publik digital untuk
-                masyarakat.
+                Website resmi Desa Kebutuhjurang, Kecamatan Nanga Mahap,
+                Kabupaten Pagedongan. Media informasi dan pelayanan publik
+                digital untuk masyarakat.
               </p>
               <div className="flex space-x-4">
                 <a href="#" className="text-gray-400 hover:text-desa-accent">
@@ -166,7 +168,7 @@ export function MainLayout() {
               <ul className="space-y-2 text-sm text-gray-400">
                 <li className="flex items-start">
                   <span className="mr-2 text-desa-accent">📍</span> Jl. Raya
-                  Desa Tamang No. 1
+                  Desa Kebutuhjurang No. 1
                 </li>
                 <li className="flex items-center">
                   <span className="mr-2 text-desa-accent">📞</span>{" "}
@@ -174,7 +176,7 @@ export function MainLayout() {
                 </li>
                 <li className="flex items-center">
                   <span className="mr-2 text-desa-accent">📧</span>{" "}
-                  admin@desatamang.id
+                  admin@desaKebutuhjurang.id
                 </li>
               </ul>
             </div>
@@ -198,8 +200,8 @@ export function MainLayout() {
             </div>
           </div>
           <div className="border-t border-gray-700 mt-8 pt-8 text-center text-sm text-gray-500">
-            &copy; {new Date().getFullYear()} Pemerintah Desa Tamang. All rights
-            reserved.
+            &copy; {new Date().getFullYear()} Pemerintah Desa Kebutuhjurang. All
+            rights reserved.
           </div>
         </div>
       </footer>
